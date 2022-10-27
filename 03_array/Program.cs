@@ -7,7 +7,7 @@ void RandomArray(int n)
     Random rnd = new Random();
     for (int i = 0; i < n; i++)
     {
-        array[i] = rnd.Next(0, 20);
+        array[i] = rnd.Next(0, 20);     //диапазон рандомайзера
         Console.Write($"{array[i]} ");
     }
 }
